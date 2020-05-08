@@ -1,25 +1,32 @@
 import React from 'react';
-import logo from './assets/fusion_logo.png';
+import ReactDOM from 'react-dom';
+
 import './App.css';
+import "./sidebar.css";
+import SideBar from "./sidebar";
+import logo from './assets/fusion_logo.png';
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    return (
+        <div id="App">
 
-        <a
-          className="App-link"
-          href="https://www.facebook.com/fusionuci/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Fusion Facebook Page
-        </a>
-      </header>
-    </div>
+            <SideBar pageWrapId={"page-wrap"} outerContainerId={"App"} />
+
+            <div id="page-wrap">
+                <h1>conFUSION</h1>
+            </div>
+
+            <header className="App-header">
+                <img src={logo} className="App-logo" alt="logo" />
+            </header>
+
+        </div>
 );
 }
+
+
+
 document.write( '<head>\n' );
 document.write( '<style>\n' );
 document.write( '.dropbtn {\n' );

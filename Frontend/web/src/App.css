@@ -1,9 +1,12 @@
 .App {
   text-align: center;
 }
+.page-wrap {
+  color: blue
+}
 
 .App-logo {
-  height: 50vmin;
+  height: 25vmin;
   pointer-events: none;
 }
 
