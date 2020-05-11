@@ -1,8 +1,13 @@
 .App {
   text-align: center;
 }
+
+body {
+  background-color: linen;
+}
+
 .page-wrap {
-  color: blue
+  color: blue;
 }
 
 .App-logo {

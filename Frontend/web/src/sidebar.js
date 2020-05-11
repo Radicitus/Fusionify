@@ -1,23 +1,17 @@
-import React from "react";
-import { slide as Menu } from "react-burger-menu";
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+import { slide  as Menu } from "react-burger-menu";
 
 export default props => {
     return (
         <Menu right>
-            <a className="menu-item" href="/">
-                Notifications
-            </a>
 
-            <a className="menu-item" href="/contact-us">
-                Contact Us
-            </a>
-
-            <a className="menu-item" href="/about-us">
-                About Us
-            </a>
+            <NavLink to="/">Home</NavLink>
+            <NavLink to="/about">About</NavLink>
+            <NavLink to="/contact">Contact</NavLink>
 
             <a className="menu-item" href="https://www.facebook.com/fusionuci/">
-                Facebook Page
+                Facebook
             </a>
         </Menu>
 );
