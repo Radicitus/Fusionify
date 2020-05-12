@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import SideBar from "../sidebar";
 import logo from "../assets/fusion_logo.png";
 import Calendar from 'react-calendar';
-import 'react-calendar/dist/Calendar.css';
+import './Calendar.css';
 
 class CalendarPage extends Component {
     state = {
