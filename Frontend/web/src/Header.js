@@ -6,7 +6,7 @@ function Header(){
     return (
         <div>
             <SideBar pageWrapId={"page-wrap"} outerContainerId={"App"} />
-            
+
             <div class = "Header">
                 <img class="Logo" src= {logo} alt="My logo" align="left"/>
                 <span class="Title">confusion</span>
