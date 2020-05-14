@@ -9,7 +9,6 @@ body {
 }
 
 .Header {
-
   font-size: 25px;
   text-align: center;
 }
@@ -17,7 +16,7 @@ body {
 .Title{
   font-size: 100px;
   font-family: 'Sacramento', cursive;
-  padding-right: 175px;
+  padding-right: 13%;
 }
 
 .Logo {
@@ -25,9 +24,72 @@ body {
   padding-top: 10px;
   width: 140px;
   height: 140px;
+}
 
+.Facebook {
+  width: 25x;
+  height: 25px;
+}
+
+.Instagram {
+  width: 25px;
+  height: 25px;
+}
+
+.Envelope {
+  width: 25px;
+  height: 25px;
+}
+
+.Alfredo{
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+  border-radius: 30px;
+}
+
+.Aljon{
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+  border-radius: 30px;
+}
+
+.Dachelle{
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+  border-radius: 30px;
+}
+
+.Kae{
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+  border-radius: 30px;
+}
+
+.Lawrence{
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+  border-radius: 30px;
 }
 
 .App-link {
   color: #131B23;
 }
+
+.Contact{
+  padding-left: 41%;
+}
+
+.Home{
+  padding-left: 41%;
+}
+
+.About{
+  padding-left: 41%;
+}
+
+

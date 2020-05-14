@@ -15,13 +15,9 @@ import "./sidebar.css";
 
 function App() {
     return (
-
-
         <BrowserRouter>
         <div>
         <Header />
-
-
 
             <Switch>
                 <Route path="/" component={Home} exact/>
