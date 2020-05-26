@@ -6,8 +6,6 @@ import Aljon from "../assets/aljon.jpg";
 import Kae from "../assets/kae.jpg";
 
 
-
-
 const About = () => {
     return (
         <div>
@@ -30,8 +28,8 @@ const About = () => {
                     <img className="Lawrence" src={Lawrence} alt="Lawrence"/>
                 </div>
         </div>
-
 );
 }
+
 
 export default About;

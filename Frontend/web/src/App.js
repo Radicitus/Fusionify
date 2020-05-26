@@ -11,13 +11,11 @@ import './App.css';
 import "./sidebar.css";
 
 
-
-
 function App() {
     return (
         <BrowserRouter>
         <div>
-        <Header />
+            <Header />
 
             <Switch>
                 <Route path="/" component={Home} exact/>
@@ -30,8 +28,6 @@ function App() {
         </BrowserRouter>
     );
 }
-
-
 
 
 export default App;

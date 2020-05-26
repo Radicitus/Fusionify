@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Calendar from 'react-calendar';
 import './Calendar.css';
 
+
 class CalendarPage extends Component {
     state = {
         date: new Date(),
@@ -19,8 +20,6 @@ class CalendarPage extends Component {
     );
     }
 }
-
-
 
 
 export default CalendarPage;
