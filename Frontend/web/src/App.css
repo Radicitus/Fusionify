@@ -42,38 +42,40 @@ body {
 }
 
 .Alfredo{
-  padding: 20px;
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
   border-radius: 30px;
 }
 
 .Aljon{
-  padding: 20px;
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
   border-radius: 30px;
 }
 
 .Dachelle{
-  padding: 20px;
-  width: 200px;
-  height: 200px;
+  margin-left: 25px;
+  width: 180px;
+  height: 180px;
   border-radius: 30px;
 }
 
 .Kae{
-  padding: 20px;
-  width: 200px;
-  height: 200px;
+  margin-left: 25px;
+  width: 180px;
+  height: 180px;
   border-radius: 30px;
 }
 
 .Lawrence{
-  padding: 20px;
-  width: 200px;
-  height: 200px;
+  margin-left: 25px;
+  width: 180px;
+  height: 180px;
   border-radius: 30px;
+}
+
+.TeamPhotos{
+  text-align: center;
 }
 
 .App-link {
@@ -81,15 +83,15 @@ body {
 }
 
 .Contact{
-  padding-left: 41%;
+  text-align: center;
 }
 
 .Home{
-  padding-left: 41%;
+  text-align: center;
 }
 
 .About{
-  padding-left: 41%;
+  text-align: center;
 }
 
 
