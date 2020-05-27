@@ -14,7 +14,6 @@ class CalendarPage extends Component {
         return (
             <div id="Cal">
             <Calendar onChange={this.onChange} value={this.state.date} />
-        
         </div>
 
     );
