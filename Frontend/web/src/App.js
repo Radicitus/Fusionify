@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from './pages/Home.js';
 import About from './pages/About.js'
 import Contact from './pages/Contact.js'
-import Calendar from './pages/Calendar.js'
+import Events from './pages/Events.js'
 
 import Header from './Header';
 import './App.css';
@@ -23,7 +23,7 @@ function App() {
                 <Route path="/" component={Home} exact/>
                 <Route path="/about" component={About}/>
                 <Route path="/contact" component={Contact}/>
-                <Route path="/calendar" component={Calendar}/>
+                <Route path="/events" component={Events}/>
             </Switch>
 
         </div>

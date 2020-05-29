@@ -9,11 +9,12 @@ class CalendarPage extends Component {
     }
 
     onChange = date => this.setState({ date })
+    onClickDay = date => this.setState(new Date(2017, 0, 1))
 
     render() {
         return (
             <div id="Cal">
-            <Calendar onChange={this.onChange} value={this.state.date} />
+            <Calendar onChange={this.onChange} onClickDay={this.onClickDay} value={this.state.date} />
         </div>
 
     );
