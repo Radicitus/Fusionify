@@ -16,6 +16,7 @@
     "react-hot-loader": "^4.12.21",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
+    "react-slidez": "0.0.31",
     "react-ui-cards": "^1.2.1"
   },
   "scripts": {
