@@ -15,18 +15,18 @@ body {
   text-align: center;
 }
 .Slides {
-  padding-left: 200px;
+  padding-left: 10%;
 }
 .Title{
-  font-size: 100px;
+  font-size: 80px;
   font-family: 'Sacramento', cursive;
-  padding-right: 13%;
+  padding-right: 10%;
 }
 .Logo {
   padding-left: 10px;
   padding-top: 10px;
-  width: 140px;
-  height: 140px;
+  width: 80px;
+  height: 80px;
 }
 
 .Facebook {
@@ -89,4 +89,9 @@ body {
 }
 .Events{
   text-align: center;
+  align-items: center;
+}
+
+.CenteredGrid{
+  padding-left: 50%;
 }

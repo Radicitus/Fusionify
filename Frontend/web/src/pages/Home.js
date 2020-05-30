@@ -13,21 +13,20 @@ const home = () => {
     return (
         <div>
             <div className = "Slides">
-            <Slideshow
-                showIndex
-                autoplay
-                useDotIndex = {true}
-                showArrows = {true}
-                enableKeyboard = {false}
-                slideInterval={8000}
-                defaultIndex={0}
-                slides={slidesList}
-                effect={'left'}
-                height={'80%'}
-                width={'80%'}
-            /></div>
-
-
+                <Slideshow
+                    showIndex
+                    autoplay
+                    useDotIndex = {true}
+                    showArrows = {true}
+                    enableKeyboard = {false}
+                    slideInterval={8000}
+                    defaultIndex={0}
+                    slides={slidesList}
+                    effect={'left'}
+                    height={'80%'}
+                    width={'80%'}
+                />
+            </div>
         </div>
     );
 }
