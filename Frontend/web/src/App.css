@@ -1,38 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .App-link {
-  color: #61dafb;
+  color: #131B23;
+}
+body {
+  background-color: linen;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Header {
+  font-size: 25px;
+  text-align: center;
+}
+.Slides {
+  padding-left: 10%;
+}
+.Title{
+  font-size: 80px;
+  font-family: 'Sacramento', cursive;
+  padding-right: 10%;
+}
+.Logo {
+  padding-left: 10px;
+  padding-top: 10px;
+  width: 80px;
+  height: 80px;
+}
+
+.Facebook {
+  width: 25x;
+  height: 25px;
+}
+.Instagram {
+  width: 25px;
+  height: 25px;
+}
+.YouTube {
+  width: 25px;
+  height: 25px;
+}
+.Envelope {
+  width: 25px;
+  height: 25px;
+}
+
+.Alfredo{
+  width: 100px;
+  height: 100px;
+  border-radius: 30px;
+}
+.Aljon{
+  width: 100px;
+  height: 100px;
+  border-radius: 30px;
+}
+.Dachelle{
+  margin-left: 25px;
+  width: 100px;
+  height: 100px;
+  border-radius: 30px;
+}
+.Kae{
+  margin-left: 25px;
+  width: 100px;
+  height: 100px;
+  border-radius: 30px;
+}
+.Lawrence{
+  margin-left: 25px;
+  width: 100px;
+  height: 100px;
+  border-radius: 30px;
+}
+
+.TeamPhotos{
+  text-align: center;
+}
+.Contact{
+  text-align: center;
+}
+.Home{
+  text-align: center;
+}
+.About{
+  text-align: center;
+}
+.Events{
+  text-align: center;
+  align-items: center;
+}
+
+.CenteredGrid{
+  padding-left: 50%;
 }
