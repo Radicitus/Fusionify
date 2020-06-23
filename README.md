@@ -1,19 +1,19 @@
-"Fusionify"
+# "Fusionify"
 
 A website created in Spring 2020 as a Web Development practice project. 
 Organized by "Filipinos Unifying Scientist-Engineers in an Organized Network", a.k.a. FUSION.
 
 It is built with React (https://reactjs.org/), and developed by the following people:
 
-FUSION Team Organizer(s):
+## FUSION Team Organizer(s):
 - Bien Salvania
 - Cameron Sherry
 
-UI/UX Designers:
+## UI/UX Designers:
 - Alfredo
 - Dachelle Alo
 
-Frontend Programmers:
+## Frontend Programmers:
 - Aljon Viray
 - Lawrence Dizon
 - Kae Ancheta
